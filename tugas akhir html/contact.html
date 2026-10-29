@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Puff & Charm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="brand">Puff & Charm</a>
+
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="new.html">New Arrivals</a></li>
+          <li class="dropdown">
+            <a href="products.html"
+              >Products <i class="fa-solid fa-chevron-down dropdown-icon"></i
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="products.html">All Products</a></li>
+              <li>
+                <a href="products.html?category=charms">Charms & Keychains</a>
+              </li>
+              <li>
+                <a href="products.html?category=hair">Hair Accessories</a>
+              </li>
+              <li><a href="products.html?category=jewellery">Jewellery</a></li>
+              <li>
+                <a href="products.html?category=phone">Phone Accessories</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="distributors.html">Suppliers</a></li>
+        </ul>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="icons">
+          <a href="cart.html" title="Shopping Bag"
+            ><i class="fa-solid fa-bag-shopping"></i
+          ></a>
+          <a href="contact.html" title="Contact Us"
+            ><i class="fa-solid fa-phone"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="new-arrival-section">
+      <div class="section-title-container">
+        <h2>Contact Us</h2>
+        <p>Ingin menyapa atau punya pertanyaan? Hubungi tim kami!</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+          <p>Kami siap membantu pada jam operasional (09.00 - 17.00 WIB).</p>
+
+          <div class="contact-detail-list">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Studio Base</strong>
+                <p>Bandung, Jawa Barat, Indonesia</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <p>hello@puffandcharm.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <strong>WhatsApp / Phone</strong>
+                <p>+62 812-3456-7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-form-card">
+          <div class="faq-form-header">
+            <i class="fa-solid fa-envelope-open-text form-icon"></i>
+            <h3>Send Us a Message</h3>
+          </div>
+
+          <form
+            class="faq-form"
+            onsubmit="
+              alert('Pesanmu telah terkirim!');
+              return false;
+            "
+          >
+            <div class="form-group">
+              <label for="c-name">Nama</label>
+              <input
+                type="text"
+                id="c-name"
+                placeholder="Nama lengkap..."
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="c-email">Email</label>
+              <input
+                type="email"
+                id="c-email"
+                placeholder="Email kamu..."
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="c-msg">Pesan</label>
+              <textarea
+                id="c-msg"
+                rows="4"
+                placeholder="Tuliskan pesanmu di sini..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <i class="fa-solid fa-flower"></i> Puff & Charm
+          </a>
+          <p class="footer-desc">
+            Joyful accessories for everyday magic. Based in Bandung, shipped
+            nationwide.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon">IG</a>
+            <a href="#" class="social-icon">TT</a>
+            <a href="#" class="social-icon">PT</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>SHOP</h4>
+          <ul>
+            <li><a href="new.html">New Arrivals</a></li>
+            <li>
+              <a href="products.html?category=charms">Charms & Keychains</a>
+            </li>
+            <li><a href="products.html?category=hair">Hair Accessories</a></li>
+            <li><a href="products.html?category=jewelry">Jewellery</a></li>
+            <li>
+              <a href="products.html?category=phone">Phone Accessories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>HELP</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="faq.html">Shipping Info</a></li>
+            <li><a href="faq.html">Return Policy</a></li>
+            <li><a href="faq.html">Size Guide</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="distributors.html">Suppliers</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Press & Media</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Puff & Charm. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Cookie Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

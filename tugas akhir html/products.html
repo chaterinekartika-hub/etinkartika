@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Puff & Charm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="brand">Puff & Charm</a>
+
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="new.html">New Arrivals</a></li>
+          <li class="dropdown">
+            <a href="products.html"
+              >Products <i class="fa-solid fa-chevron-down dropdown-icon"></i
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="products.html">All Products</a></li>
+              <li>
+                <a href="products.html?category=charms">Charms & Keychains</a>
+              </li>
+              <li>
+                <a href="products.html?category=hair">Hair Accessories</a>
+              </li>
+              <li><a href="products.html?category=jewellery">Jewellery</a></li>
+              <li>
+                <a href="products.html?category=phone">Phone Accessories</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="distributors.html">Distributors</a></li>
+        </ul>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="icons">
+          <a href="cart.html" title="Shopping Bag"
+            ><i class="fa-solid fa-bag-shopping"></i
+          ></a>
+          <a href="contact.html" title="Contact Us"
+            ><i class="fa-solid fa-phone"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="new-arrival-section">
+      <div class="section-title-container">
+        <h2>Our Products</h2>
+        <p>Explore our full collection of handcrafted treasures!</p>
+      </div>
+
+      <div class="product-filter-wrapper">
+        <input type="radio" id="filter-all" name="category" checked />
+        <input type="radio" id="filter-charms" name="category" />
+        <input type="radio" id="filter-hair" name="category" />
+        <input type="radio" id="filter-jewellery" name="category" />
+        <input type="radio" id="filter-phone" name="category" />
+
+        <div class="filter-buttons">
+          <label for="filter-all" class="filter-btn">All Products</label>
+          <label for="filter-charms" class="filter-btn"
+            >Charms & Keychains</label
+          >
+          <label for="filter-hair" class="filter-btn">Hair Accessories</label>
+          <label for="filter-jewellery" class="filter-btn">Jewellery</label>
+          <label for="filter-phone" class="filter-btn">Phone Accessories</label>
+        </div>
+
+        <div class="product-grid">
+          <!-- Produk 1 (Charms) -->
+          <div class="product-card category-charms">
+            <div class="product-image">
+              <span class="badge">NEW</span>
+              <img src="new1.jpeg" alt="Sunglasses Charm" />
+            </div>
+            <div class="product-info">
+              <h3>Sunglasses Charm</h3>
+              <p class="price">Rp25.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-charms">
+            <div class="product-image">
+              <span class="badge">NEW</span>
+              <img src="new3.jpeg" alt="Paw Cat Charm" />
+            </div>
+            <div class="product-info">
+              <h3>Paw Cat Charm</h3>
+              <p class="price">Rp10.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-charms">
+            <div class="product-image">
+              <img src="charm3.jpeg" alt="Plushie Charm" />
+            </div>
+            <div class="product-info">
+              <h3>Plushie Charm</h3>
+              <p class="price">Rp25.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-charms">
+            <div class="product-image">
+              <img src="charm1.jpeg" alt="Star Plushie Charm" />
+            </div>
+            <div class="product-info">
+              <h3>Star Plushie Charm</h3>
+              <p class="price">Rp15.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-phone">
+            <div class="product-image">
+              <span class="badge">NEW</span>
+              <img src="new2.jpeg" alt="Pink Green Strap Phone" />
+            </div>
+            <div class="product-info">
+              <h3>Pink Green Strap Phone</h3>
+              <p class="price">Rp20.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-phone">
+            <div class="product-image">
+              <img src="phone3.jpeg" alt="Mini Strap Phone" />
+            </div>
+            <div class="product-info">
+              <h3>Mini Strap Phone</h3>
+              <p class="price">Rp8.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-phone">
+            <div class="product-image">
+              <img src="phone1.jpeg" alt="Random Strap Phone" />
+            </div>
+            <div class="product-info">
+              <h3>Random Strap Phone</h3>
+              <p class="price">Rp15.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-phone">
+            <div class="product-image">
+              <img src="phone4.jpeg" alt="Blue Pink Strap Phone" />
+            </div>
+            <div class="product-info">
+              <h3>Blue Pink Strap Phone</h3>
+              <p class="price">Rp20.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <span class="badge">LIMITED EDITION</span>
+              <img src="schruncie.jpeg" alt="Halloween Schruncie" />
+            </div>
+            <div class="product-info">
+              <h3>Halloween Schruncie</h3>
+              <p class="price">Rp25.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <span class="badge">LIMITED EDITION</span>
+              <img src="limed.jpeg" alt="Halloween Hair Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Halloween Hair Clip</h3>
+              <p class="price">Rp20.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <img src="hair1.jpeg" alt="Sanrio Claw Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Sanrio Claw Clip</h3>
+              <p class="price">Rp30.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <img src="hair2.jpeg" alt="Blue Sanrio Hair Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Cinnamoroll Hair Clip</h3>
+              <p class="price">Rp20.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <img src="hair3.jpeg" alt="Black Kurromi Hair Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Kuromi Hair Clip</h3>
+              <p class="price">Rp20.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <img src="hair6.jpeg" alt="Pink Series Hair Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Pink Series Hair Clip</h3>
+              <p class="price">Rp15.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-hair">
+            <div class="product-image">
+              <img src="hair7.jpeg" alt="Yellow Series Hair Clip" />
+            </div>
+            <div class="product-info">
+              <h3>Yellow Series Hair Clip</h3>
+              <p class="price">Rp15.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Produk 5 (Jewellery) -->
+          <div class="product-card category-jewellery">
+            <div class="product-image">
+              <img src="kalung.jpeg" alt="Pink Necklace" />
+            </div>
+            <div class="product-info">
+              <h3>Pink Necklace</h3>
+              <p class="price">Rp35.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-jewellery">
+            <div class="product-image">
+              <img src="gelang1.jpeg" alt="Small Beads Bracelet" />
+            </div>
+            <div class="product-info">
+              <h3>Small Beads Bracelet</h3>
+              <p class="price">Rp30.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-jewellery">
+            <div class="product-image">
+              <img src="gelang3.jpeg" alt="Big Beads Bracelet" />
+            </div>
+            <div class="product-info">
+              <h3>Big Beads Bracelet</h3>
+              <p class="price">Rp25.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card category-jewellery">
+            <div class="product-image">
+              <img src="cincin.jpeg" alt="Colorful Beads Ring" />
+            </div>
+            <div class="product-info">
+              <h3>Colorful Beads Ring</h3>
+              <p class="price">Rp5.000</p>
+              <button class="add-btn">
+                <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <i class="fa-solid fa-flower"></i> Puff & Charm
+          </a>
+          <p class="footer-desc">
+            Joyful accessories for everyday magic. Based in Bandung, shipped
+            nationwide.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon">IG</a>
+            <a href="#" class="social-icon">TT</a>
+            <a href="#" class="social-icon">PT</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>SHOP</h4>
+          <ul>
+            <li><a href="new.html">New Arrivals</a></li>
+            <li><a href="products.html">All Products</a></li>
+            <li>
+              <a href="products.html?category=charms">Charms & Keychains</a>
+            </li>
+            <li><a href="products.html?category=hair">Hair Accessories</a></li>
+            <li><a href="products.html?category=jewellery">Jewellery</a></li>
+            <li>
+              <a href="products.html?category=phone">Phone Accessories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>HELP</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="faq.html">Shipping Info</a></li>
+            <li><a href="faq.html">Return Policy</a></li>
+            <li><a href="faq.html">Size Guide</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="distributors.html">Suppliers</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Press & Media</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Puff & Charm. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="about.html">Privacy Policy</a>
+          <a href="about.html">Terms & Conditions</a>
+          <a href="about.html">Cookie Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get("category");
+
+    if (category) {
+      const targetRadio = document.getElementById(`filter-${category}`);
+      if (targetRadio) {
+        targetRadio.checked = true;
+      }
+    }
+  </script>
+</html>
